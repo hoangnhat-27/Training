@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training W2</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="login_form">
+        <h4 class="title">SOIOT SYSTEM</h4>
+        <input
+          type="text"
+          name="username"
+          class="username input_text"
+          placeholder="user name"
+          id="username"
+          required
+        />
+        <p id="username_text"></p>
+        <input
+          type="password"
+          name="password"
+          class="password input_text"
+          placeholder="password"
+          id="password"
+          required
+        />
+        <p id="password-text"></p>
+        <div class="login_or_signup">
+          <input type="submit" value="LOGIN" class="login_btn" />
+          <span class="fake_link">or create new account</span>
+        </div>
+      </form>
+    </div>
+    <div class="back">
+      <input type="button" class="back_btn" value="Back to dashboard ->" />
+    </div>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
